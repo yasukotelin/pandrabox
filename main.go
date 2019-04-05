@@ -27,7 +27,7 @@ func getRunURL() string {
 }
 
 func routing() {
-	http.Handle("/", http.FileServer(http.Dir("public")))
+	http.Handle("/", http.FileServer(http.Dir("view/build/")))
 }
 
 func listen() {
