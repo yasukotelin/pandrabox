@@ -6,11 +6,12 @@ The tool that management the password. Local web server app.
 
 ### System
 
-<img src="res/system-structuer.png" />
+<img src="documents/system-structuer.png" />
 
 #### View
 
 - React (create-react-app)
+- Typescript
 - Material-UI
 
 #### Web server
